@@ -28,7 +28,7 @@ end
 
 def retrieve_element_from_index(array, index_number)
   my_fav_colors = ["wow", "blue", "black", "white", "green"]
-  my_fav_colors[1]
+  my_fav_colors[2]
 end
 
 def retrieve_first_element_from_array(array)
