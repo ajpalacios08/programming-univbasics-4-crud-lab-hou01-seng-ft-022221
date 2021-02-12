@@ -1,21 +1,24 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  my_fav_colors = ["blue", "black", "white", "green"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  my_fav_colors = ["blue", "black", "white", "green"]
+  my_fav_colors << "arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  my_fav_colors = ["blue", "black", "white", "green"]
+  my_fav_colors.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  my_fav_colors = ["blue", "black", "white", "green", "arrays!"]
+  my_fav_colors.pop("arrays!")
 end
 
 def remove_element_from_start_of_array(array)
